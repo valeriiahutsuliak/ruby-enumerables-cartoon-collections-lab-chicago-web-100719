@@ -7,3 +7,5 @@ end
 def long_planeteer_calls(call_array)
   call_array.any? { |item| item.length > 4 }
 end	
+def find_the_cheese(snack_array)
+  

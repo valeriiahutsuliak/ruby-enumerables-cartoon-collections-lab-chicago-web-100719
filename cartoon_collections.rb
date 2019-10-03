@@ -5,4 +5,5 @@ def summon_captain_planet(call_array)
   call_array.map { |item| "#{item.capitalize}!" }
 end
 def long_planeteer_calls(call_array)
-  
+  call_array.any? { |item| item.length > 4 }
+end	

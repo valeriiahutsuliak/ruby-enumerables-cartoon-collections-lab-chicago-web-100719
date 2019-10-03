@@ -25,4 +25,7 @@ potentially_cheesy_items = ["umbrella", "spinach", "cheddar", "helicopter"]
 end	
 
 find_the_cheese(potentially_cheesy_items)
-
+expect(find_the_cheese(no_cheese)).to eq nil
+    end	    
+  end	  
+end	

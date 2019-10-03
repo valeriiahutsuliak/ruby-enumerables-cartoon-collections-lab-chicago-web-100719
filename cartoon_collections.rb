@@ -16,7 +16,7 @@ def long_planeteer_calls(planeteer_calls)
   	planeteer_calls.any? { |call| call.length > 4}
 end	
 potentially_cheesy_items = ["umbrella", "spinach", "cheddar", "helicopter"]
-  cheese_types = ["cheddar", "gouda", "camembert"]	def find_the_cheese(potentially_cheesy_items)
+  	def find_the_cheese(potentially_cheesy_items)
   cheeses_types = ["gouda", "cheddar", "camembert"]
 
   potentially_cheesy_items.find do |maybe_cheese|

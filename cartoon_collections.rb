@@ -24,7 +24,5 @@ potentially_cheesy_items = ["umbrella", "spinach", "cheddar", "helicopter"]
   end
 end	
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-end
+find_the_cheese(potentially_cheesy_items)
+
